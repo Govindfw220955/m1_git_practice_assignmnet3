@@ -6,18 +6,15 @@ function checkprime(number){
         	}
     	}
     	if(fact==2){
+
         	return true;
     	}
     	else{
         	return false;
     	}
 
-}
-
-let ans=checkprime(12);
-if(ans==true){
-	console.log("Prime");
-}
-else{
-	console.log("Not Prime")
-}
+let answer=checkprime(11);
+if(answer==true){
+console.log("Prime Number")
+}else{
+console.log("Not A Prime Number")
