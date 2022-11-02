@@ -1,14 +1,15 @@
-
-function checkprime(n){
-	let count=0;
-    	for(let i=1;i<=n;i++){
-        	if(n%i==0){
-            count++;
-        	
+function checkprime(number){
+	let fact=0;
+    	for(let i=1;i<=number;i++){
+        	if(number%i==0){
+            	fact++;
+        	}
     	}
- if (count ==2){
+    	if(fact==2){
+
         	return true;
     	}
+    	else{
         	return false;
     	}
 
@@ -17,4 +18,3 @@ if(answer==true){
 console.log("Prime Number")
 }else{
 console.log("Not A Prime Number")
-
